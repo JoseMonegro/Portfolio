@@ -1,16 +1,78 @@
 <!DOCTYPE html>
 <html>
 
+  <!-- The <head> tags holds the important tags like the meta, title and link tags. -->
+  
 <head>
   <meta charset="utf-8">
+  <!-- the line below makes sure that whatever device my website is opened on it would format it to fit the screen correctly.  -->
   <meta name="viewport" content="width=device-width">
-  <title>Jose Monegro</title>
+  <!-- The line below labels the tab of the website. -->
+  <title>Jose Monegro | Software Developer</title>
+  <!-- The line below links the stylesheet to this page. -->
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
+<!-- The body tags hold the 'meat' of the page. The information that I want displayed on the page. -->  
 <body>
-  Hello world
-  <script src="script.js"></script>
+  <!-- The header tags will hold what I want at the top of the page. if I wanted the  -->
+  <header>
+    <!-- The <div> tags work as a container to give specific stylings to only what is in the tags. -->
+    <div class = 'heading'>
+      <h1> Jose Monegro </h1>
+      <h4>Software Developer</h4>
+    <!-- <hr> creates a horizontal line 'dividing' the page. -->
+    
+    </div>
+  </header>
+  <h3>Hi I'm Jose Monegero!</h3>
+  <p>Welcome to my page! I'm a software developer living in Ocala, Florida. </p>
+  <p>Some of my interests are:</p>
+  <!-- The <ul> tags make an unorganized list using bullet points. The <li> -->
+    <ul>
+      <li>Lifting weights</li>
+        <ul>
+          <li>Personal Best Bench = 270lbs</li>
+          <li>Personal Best Squat = 290lbs</li>
+        </ul>
+      <li>Video Games</li>
+        <ul>
+          <li>Zombie Survival games such as "Project Zomboid", "Back 4 Blood" and "DayZ"</li>
+        </ul>
+      <li>Back-end development</li>
+    </ul>
+  <hr>
+
+  <div class = 'about'> 
+    <h3>About Jose</h3>
+      <p>A few years after graduating High School I stayed in the Dominican Republic for about 10 months.</p>
+
+      <p>I have always dabbled in coding after graduating High School, since it was always an interest of mine, but now I am excited that I have decided to make it my full-time career! I am looking forward to work with other developers. Reach out to me as I have left my contact information on this page below!</p>
+  </div>
+<hr>
+  <div class = 'contact'>
+    <h3>Contact Jose</h3>
+    <p>
+    It would be a pleasure to work with you and push each other to stretch our minds in software development. Contact me!
+    </p>
+  
+<!-- The <ol> tags make an organized list. When I list something using the <li> tags then it will be numbered instead of the bullet points. -->
+    <ol>
+    <!-- The <a href=''> tags link to a different wepage. -->
+      <li><a href="https://github.com/JoseMonegro">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/jose-monegro-730779245/">linkdIn</a></li>
+    </ol>
+  </div>
+  <!-- The <footer> tag goes at the bottom of the webpage to hold any information that you want at the end. -->
+  <div class = 'foot'>
+    <footer> 
+    <p>© Thinkful</p>
+      
+    </footer>
+  </div>
+  <!-- The script tag links the javascript code to this webpage. Even though I do not have any Javascript code I figured I'd add it anyways. -->
+<script src="script.js"></script>
+  
 </body>
 
 </html>
