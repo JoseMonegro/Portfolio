@@ -1,1 +1,58 @@
+/* this peice of code deals with the body of the webpage and the webpage in general. changing the font and making sure it is all in the center. It also adds space from the header.*/
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: sans-serif;
+  text-align: center;
+}
+/* class that is set to the div of the about section. just adds a bit of space between each statement. */
+.about {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+/*This class is for the contact section of the page. It adds a bit of space between the contact section and the about section as well as the footer section.  */
+.contact {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* this class makes the footer section blue and the height that I wanted. */
+.foot {
+  background-color: #14213D;
+  height: 10%;
+}
+/*Changes the text in the footer to white. */
+footer {
+  color: white;
+}
+/*This makes the body white as well as the text blue. */
+body {
+  background-color: #E5E5E5;
+  color: #14213D;
+}
+/* This makes the horizontal line as long as 80% */
+hr {
+  width: 80%;
+}
+/* */
+header {
+  background-color: #14213D;
+  color: #E5E5E5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
+
+/*This peice of code aligns the interests and makes them straight. */
+#interests {
+  margin-left: 200px;
+}
+/* This is another peice of code aligns the interests and makes them straight.*/
+ul{
+  display: inline-block; 
+	text-align: left; 
+}
+
+/*hides the numbers for the organized list. */
+ol{
+  list-style-type: none;
+}
